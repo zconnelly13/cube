@@ -11,7 +11,7 @@ height:500;
 </style>
 <script src='Cube.js'></script>
 </head>
-<body onkeydown='mdown(event);' onload='load()'>
+<body onkeydown='mdown(event.shiftKey,event.keyCode,1);' onkeyup='mup(event);' onload='load()'>
 <canvas id='canvas' width=500 height=500></canvas>
 </body>
 </html>
